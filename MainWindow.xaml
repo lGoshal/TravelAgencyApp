@@ -1,0 +1,9 @@
+﻿<Window x:Class="TravelAgencyApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Travel Agency" Height="350" Width="525">
+    <Grid>
+        <Button Name="ManageToursButton" Content="Manage Tours" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Click="ManageToursButton_Click"/>
+        <Button Name="ManageCustomersButton" Content="Manage Customers" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0" Click="ManageCustomersButton_Click"/>
+    </Grid>
+</Window>

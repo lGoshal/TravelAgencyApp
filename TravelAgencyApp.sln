@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgencyApp", "TravelAgencyApp.csproj", "{527FC06A-23DB-4E9A-B8E7-AC3ADFE2108D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71AC0AD1-1446-4DD8-BFE9-5EC59114E016} = {71AC0AD1-1446-4DD8-BFE9-5EC59114E016}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgencyLibrary", "..\TravelAgencyLibrary\TravelAgencyLibrary.csproj", "{71AC0AD1-1446-4DD8-BFE9-5EC59114E016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{527FC06A-23DB-4E9A-B8E7-AC3ADFE2108D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527FC06A-23DB-4E9A-B8E7-AC3ADFE2108D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527FC06A-23DB-4E9A-B8E7-AC3ADFE2108D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527FC06A-23DB-4E9A-B8E7-AC3ADFE2108D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AC0AD1-1446-4DD8-BFE9-5EC59114E016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AC0AD1-1446-4DD8-BFE9-5EC59114E016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AC0AD1-1446-4DD8-BFE9-5EC59114E016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AC0AD1-1446-4DD8-BFE9-5EC59114E016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E51FD117-F7C5-409C-B839-87B21C59C89D}
+	EndGlobalSection
+EndGlobal
